@@ -1,0 +1,13 @@
+{
+	"name" : "Test",
+	"description": "Test",
+	"version": "0.0.0",
+	"main": "Amadeus(Kurisu).py"
+	"scripts": {
+		"start": "python Amadeus(Kurisu).py"
+	},
+	"dependencies": {
+		"discord.py": "11.1.0"
+		"request": "2.81.0"
+	}
+}
