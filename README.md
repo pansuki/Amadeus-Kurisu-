@@ -1,0 +1,2 @@
+# Amadeus-Kurisu-
+discord bot 
