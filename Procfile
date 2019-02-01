@@ -1,0 +1,1 @@
+python Amadeus(Kurisu).py
