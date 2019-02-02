@@ -1,1 +1,1 @@
-woker: Amadeus(Kurisu).py
+worker: Amadeus(Kurisu).py
