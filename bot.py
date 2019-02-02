@@ -38,4 +38,4 @@ async def info(ctx, user: discord.Member):
         await bot.say("unknown person or not put in yet <@189542988647497728>")    
     #if *insert person* give statement else put unknown person or not put in yet :]    
 
-bot.run(bot_token)
+bot.run(process.env.BOT_TOKEN)
