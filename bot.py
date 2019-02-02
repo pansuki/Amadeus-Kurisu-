@@ -17,11 +17,28 @@ async def on_ready():
     print (bot.user.id)
 
 @bot.command(pass_context=True)    
-async def tree(ctx):
-    await bot.say("I am a tree")
+async def nurupo(ctx):
+    await bot.say("Gah")
 
+@bot.command(pass_context=True)
+async def drink(ctx):
+    await bot.say("Dr. Pepper of couse, it is The intellectual drink, for the chosen ones!")
+
+#@bot.command(pass_context=True)
+#async def spam(ctx, phrase, num):
+    
+     
+
+@bot.command(pass_context=True)
 async def info(ctx, user: discord.Member):
-    if discord.Member = N2 Dopey#2749
-    #if *insert person* give statement else put unknown person or not put in yet :]   
+    if user.name == 'Amadeus(Kurisu)':
+        await bot.say("Lab Member 004 Christina. online name: KuriGohan and Kamehameha")
+    elif user.name == '<@189542988647497728>':
+        await bot.say("listen buddy")
+    elif user.name == 'loik':    
+        await bot.say("listen buddy")
+    else:
+        await bot.say("unknown person or not put in yet <@189542988647497728>")    
+    #if *insert person* give statement else put unknown person or not put in yet :]    
 
 bot.run(bot_token)
