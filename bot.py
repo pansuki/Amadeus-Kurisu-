@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix=';')
 async def on_ready():
     print ("testing")
     print ("I am a tree" + bot.user.name)
-    print (bot_useId)
+    print (bot_userId)
 
 @bot.command(pass_context=True)    
 async def nurupo(ctx):
